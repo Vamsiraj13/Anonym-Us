@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/depart"
+        android:layout_width="72dp"
+        android:layout_height="60dp"
+        android:src="@drawable/img"
+        app:fabSize="auto"
+        app:backgroundTint="@color/white"
+        android:contentDescription="TODO" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="220dp"
+        android:layout_height="283dp"
+        android:layout_marginStart="90sp"
+
+        android:src="@drawable/profile_pic">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:id="@+id/name"
+        android:hint="Name"
+        android:text = "Vamsi"
+        android:layout_margin="10dp"
+        tools:ignore="TextFields" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:id="@+id/height"
+        android:hint="Mobile number"
+        android:text = "+91 6303375517"
+        android:layout_margin="10dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:id="@+id/anime"
+        android:hint="Email"
+        android:text = "doraswamyvamsi9@gmail.com"
+        android:layout_margin="10dp"
+        android:inputType="text"
+        />
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="save"
+        android:textStyle="bold"
+        android:layout_marginTop="55dp"
+
+        android:textSize="22sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@color/white" />
+
+</LinearLayout>

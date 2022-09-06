@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "390268706591",
+    "project_id": "line-chat-23f47",
+    "storage_bucket": "line-chat-23f47.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:390268706591:android:8c9436bf3c733c562d1a2a",
+        "android_client_info": {
+          "package_name": "com.google.firebase.udacity.friendlychat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "390268706591-93prb76kvl6lflspjinie9arkiblbj1b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.google.firebase.udacity.friendlychat",
+            "certificate_hash": "b55e55fe1020fce8cdd74e2aefce36373a89d2d8"
+          }
+        },
+        {
+          "client_id": "390268706591-30dlfr8t771dgvunqfadgkubgglb3d2g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxqGoVR924PYwAoBphTj-qk5P5eymdpIw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "390268706591-30dlfr8t771dgvunqfadgkubgglb3d2g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
